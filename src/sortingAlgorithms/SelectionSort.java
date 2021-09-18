@@ -2,17 +2,8 @@ package sortingAlgorithms;
 
 import java.util.Comparator;
 
-public class SelectionSort {
-	public static void main(String[] args) {
-		Integer[] arr = SortingUtil.randomIntegerArray(100, 100);
-		Comparator<Integer> cmp = (Integer a, Integer b) -> a-b;
-	
-		selectionSort(arr, cmp);
-		
-		System.out.println(SortingUtil.isSorted(arr, cmp));
-	}
-	
-	public static <T> void selectionSort(T[] arr, Comparator<T> cmp) {
+public class SelectionSort implements Sorter {
+	public <T> void sort(T[] arr, Comparator<T> cmp) {
 		for(int i = 0; i < arr.length; i++) {
 			int minIndex = i;
 			T minVal = arr[i];

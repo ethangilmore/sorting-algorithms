@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>SortingAlgorithms</name>
+	<name>sorting-algorithms</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -14,4 +14,31 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.classpath</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Documents/GitHub/sorting-algorithms/.classpath</locationURI>
+		</link>
+		<link>
+			<name>.project</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Documents/GitHub/sorting-algorithms/.project</locationURI>
+		</link>
+		<link>
+			<name>.settings</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Documents/GitHub/sorting-algorithms/.settings</locationURI>
+		</link>
+		<link>
+			<name>bin</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Documents/GitHub/sorting-algorithms/bin</locationURI>
+		</link>
+		<link>
+			<name>src</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Documents/GitHub/sorting-algorithms/src</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
